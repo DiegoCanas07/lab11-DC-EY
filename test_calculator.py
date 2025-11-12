@@ -1,3 +1,6 @@
+#https://github.com/DiegoCanas07/lab11-DC-EY.git
+#Partner 1: Diego Canas
+#Partner 2: Ethan Yin
 import unittest
 import calculator
 
