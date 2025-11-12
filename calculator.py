@@ -27,8 +27,6 @@ def sub(a,b):
 def mul(a,b):
     return a * b
 
-
-
 def log(a,b):
     if a <= 0 or b <= 0 or b == 1:
         raise ValueError("Invalid logarithmic arguments")
@@ -45,12 +43,3 @@ def div(a, b):
     else:
         b / a
 
-def log(a, b):
-    if a <= 0:
-        raise ValueError("Logarithm undefined for non-positive x.")
-    if b <= 0 or b == 1:
-        raise ValueError("Base must be positive and not equal to 1.")
-    else:
-        math.log(a,b)# use math library + raise ValueError
-
-def exp(a, b): a**b
