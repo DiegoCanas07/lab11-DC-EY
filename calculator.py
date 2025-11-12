@@ -40,5 +40,5 @@ def div(a, b):
     if b == 0:
         raise ZeroDivisionError("Cannot divide by Zero")
     else:
-        a/ b
+        return a/ b
 
