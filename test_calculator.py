@@ -38,7 +38,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_log_invalid_base(self):
         with self.assertRaises(ZeroDivisionError):
-        calculator.logarithm(5, 625)
+            calculator.logarithm(5, 625)
 
     
     ######## Partner 1
