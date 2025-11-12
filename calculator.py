@@ -28,4 +28,6 @@ def log(a, b):
 def exp(a, b): a^b
 
 
-
+git add calculator.py	     # staging all files to be saved
+git commit -m "modified calculator p1" # saving changes w/ message
+git push
