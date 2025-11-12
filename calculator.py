@@ -1,13 +1,12 @@
+#https://github.com/DiegoCanas07/lab11-DC-EY.git
+#Partner 1: Diego Canas
+#Partner 2: Ethan Yin
 """
 calculator.py
 - Defines functions used to create a simple calculator
 
 One function per operation, in order.
 """
-
-#https://github.com/DiegoCanas07/lab11-DC-EY.git
-#Partner 1: Diego Canas
-#Partner 2: Ethan Yin
 
 import math
 def square_root(a):
