@@ -37,7 +37,7 @@ class TestCalculator(unittest.TestCase):
         self.assertAlmostEqual(calculator.logarithm(4, 1024), 5.0)
 
     def test_log_invalid_base(self):
-        with self.assertRaises(ZeroDivisionError):
+        with self.assertRaises(ValueError):
             calculator.logarithm(5, 625)
 
     
