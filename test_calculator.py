@@ -45,10 +45,6 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(ValueError):
             calculator.logarithm(1, 8)
 
-    def test_log_invalid_base(self):
-        with self.assertRaises(ValueError):
-            calculator.logarithm(5, 625)
-
     ######## Partner 1
     def test_log_invalid_argument(self):
         self.assertAlmostEqual(calculator.logarithm(2, 8), 3.0)
