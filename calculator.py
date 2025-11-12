@@ -37,8 +37,8 @@ def exp(a,b):
 
 
 def div(a, b):
-    if b == 0:
+    if a == 0:
         raise ZeroDivisionError("Cannot divide by Zero")
     else:
-        a / b
+        b / a
 
