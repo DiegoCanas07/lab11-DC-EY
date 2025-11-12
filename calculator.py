@@ -19,15 +19,10 @@ def div(a, b):
 
 def log(a, b):
     if a <= 0:
-        raise ValueError("Logarithm undefined for non-positive a.")
+        raise ValueError("Logarithm undefined for non-positive x.")
     if b <= 0 or b == 1:
         raise ValueError("Base must be positive and not equal to 1.")
     else:
-        math.log(a,b)
+        math.log(a,b)# use math library + raise ValueError
 
 def exp(a, b): a^b
-
-
-git add calculator.py	     # staging all files to be saved
-git commit -m "modified calculator p1" # saving changes w/ message
-git push
