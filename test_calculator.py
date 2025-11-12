@@ -21,11 +21,11 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(calculator.mul(5, 0), 0)
         self.assertEqual(calculator.mul(-2,3), -6)
 
-    def test_divide(self): # 3 assertions
-        self.assertAlmostEqual(calculator.div(2, 4), 0.5)
-        self.assertAlmostEqual(calculator.div(4, 1), 4.0)
-        self.assertAlmostEqual(calculator.div(1, -4), -0.25)
+    def test_divide(self):
 
+        self.assertAlmostEqual(calculator.div(2, 4), 2.0)
+        self.assertAlmostEqual(calculator.div(4, 1), 0.25)
+        self.assertAlmostEqual(calculator.div(1, -4), -4.0)
     ######## Partner 2
     def test_divide_by_zero(self): # 1 assertion
         with self.assertRaises(ZeroDivisionError):
